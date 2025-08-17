@@ -1,0 +1,23 @@
+site_name: 我的 Wiki
+site_description: 一个基于 MkDocs 的技术 Wiki。
+
+# 使用 Material for MkDocs 主题
+theme:
+  name: material
+  features:
+    - content.tabs.link
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+
+# 导航栏配置
+nav:
+  - 首页: index.md
+  - 指南:
+      - 基础: guide/basics.md
+      - 高级: guide/advanced.md
+  - 关于: about.md
